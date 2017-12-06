@@ -1,3 +1,6 @@
+Projekt Grupowy numer 01 - Problemy Eulera
+
+Podział zadań:
 1. 14  2  7		@Pesiok
 2. 15  3  6		@C99 ANSIC
 3. 12  4  9		@esdain
@@ -5,4 +8,38 @@
 5. 13  5 10		@artikow
 6. 16 17 18		@h0lend9r
 
+Zadania znajdują się tu:
 https://projecteuler.net/archives
+
+Opis:
+
+Oto nasz pierwszy projekt grupowy, którego celem jest wykorzystanie w praktyce zdobytej wiedzy o gicie, języku go i pierwsza wspólna praca nad problemami.
+
+Zasady pisania problemóœ to napisanie jednego zadania samodzielne z pośród swoich trzech dostępnych a pozostałe dwa z conajmniej jedną osobą z grupy.
+
+Każdy musi rozwiązać z kimś conajmniej jedno zadanie spoza swojego zestawu zadań.
+
+Możliwe, że któreś z zadań będzie nieimplementowanle na obecnym poziomie naszej wiedzy, wtedy należy je zaimplementować na tyle na ile to możliwe i opisać dlaczego tyle i czego brakuje.
+
+Każde zadanie powinno zostać rozwiązane w sposób teoretyczny i praktyczny, gdzie praktyczny oznacza napisanie programu w języku Go, które je rozwiązuje. Sposób teoretyczny to opisanie zadania, jego algorytmu lub algorytmów, narysowanie schematu blokowego, itp.
+
+Dla zadań grupowych, każda osoba powinna odpowiadać za jakiś fragment rozwiązania, np. za kod lub fragment kodu, za opis teoretyczny lub narysowanie schematu itp. Zadanie powinno być wspólnym dziełem.
+
+Wszystkie materiały dotyczące danego zadania powinny zostać umieszczone w folderze z jego numerem.
+
+Program powinien nazywać się XX.go gdzie XX to numer zadania np dla zadania 4 04.go.
+
+Uruchomienie zadania polega na wpisaniu go run XX.go znajdując się w jego folderze.
+
+Kod źródłowy zadania powinien zawierać wyczerpujące komentarze a jego nagłówek powinien mieć taki format:
+/*
+Numer zadania
+Nazwa zadania
+Adres zadania
+Autorzy:
+Autor	- Za co autor w implementacji odpowiada
+*/
+
+Taki sam nagłówek bez znaków komentujących powinien być w pliku AUTORZY jednak ten plik dotyczy całości wykonanej pracy nad zadaniem czyli części teoretycznei i implementacyjnej. Ale implementacyjna streszczona do "kod źródłowy".
+
+W pliku KOMENTARZ należy umieścić ewentualne komentarze co do wykonanej pracy lub samego zadania.
