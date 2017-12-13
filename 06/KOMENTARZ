@@ -1,0 +1,14 @@
+Zadanie wydaje się proste. Ostatecznie polega na odjęciu od siebie dwóch liczb. Jednak obie liczby należy wcześniej obliczyć.
+
+Problemem, który należy rozważyć jest to jak duże będą to liczby co umożliwi sprawdzenie jakie typy danych będzie można wykorzystać do ich przechowywania.
+
+Pierwszą liczbą do obliczenia jest suma kwadratów każdego elementu z ciągu od 1 do 100. Na początek i najprościej można sprawdzić co by było gdyby to była suma kwadratu największej z nich zsumowana tyle razy ile elementów ma ciąg czyli 100^2*100 = 10 000*100 = 1 000 000
+Oznacza to, że wartość sumy kwadratów branego pod uwagę ciągu będzie dużo mniejsza niż 1 000 000 co umożliwia pewne wykorzystanie dowolnego z typów całkowitych większych niż 16 bitów.
+
+Druga liczba to będzie kwadrat sumy ciągu. Ponownie dokonując uproszczenia można rozważyć dany wzór (100*100)^2 = 10 000^2 = 100 000 000. Wnioski są takie same jak przy poprzednim obliczeniu.
+
+Różnica drugiej liczby i pierwszej również zmieści się w wybranym typie danych.
+
+Schemat blokowy algorytmu rozwiązującego znajduje się w pliku schematBlokowyRozwiązania.xml lub schematBlokowyRozwiązania.pdf.
+Oba pliki powinny zawierać ten sam schemat blokowy.
+Plik xml jest plikiem roboczym do rysowania schematu na stronie www.draw.io.
